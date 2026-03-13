@@ -1,29 +1,23 @@
 # Spring Using Java Based Configuration
 
-This repository contains multiple examples demonstrating **Spring Framework concepts using Java-Based Configuration** instead of XML configuration.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring_Framework-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=ApacheMaven&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 
-The goal of this project is to understand how Spring manages **beans, dependency injection, and application configuration using Java classes and annotations.**
+A collection of small projects demonstrating **Spring Framework concepts using Java-Based Configuration instead of XML**.
 
----
-
-## 🚀 Technologies Used
-
-- Java
-- Spring Framework
-- Maven
-- IntelliJ IDEA
+This repository contains multiple examples showing how core Spring features like **Dependency Injection, Bean Configuration, Autowiring, Qualifiers, Scope, and Stereotype Annotations** work in practice.
 
 ---
 
-## 📂 Project Structure
-
-Each folder in this repository represents a **separate Spring concept**.
+# 📂 Project Structure
 
 ```
 SpringUsingJavaBasedConfig
 │
 ├── SpringusingJavaConfig
-│   └── Basic Java-based configuration example
+│   └── Basic Java configuration example
 │
 ├── SpringBeanNameinJavaConfig
 │   └── Understanding default and custom bean names
@@ -32,25 +26,29 @@ SpringUsingJavaBasedConfig
 │   └── Demonstrates how @Autowired works
 │
 ├── SpringAutowireAnnotationUsingjavaconfig
-│   └── Dependency injection using @Autowired annotation
+│   └── Dependency injection using @Autowired and @Qualifier
+│
+├── SpringComponentStereotypeAnnotation
+│   └── Using @Component and @ComponentScan
+│
+├── SpringPrimaryAnnotation
+│   └── Demonstrates the use of @Primary annotation
 │
 ├── SpringQualifierandPrimaryAnnotations
 │   └── Resolving multiple beans using @Qualifier and @Primary
 │
-├── SpringComponentStereotypeAnnotation
-│   └── Using @Component and component scanning
+├── SpringScopeUsingJavaConfig
+│   └── Demonstrates bean scopes like prototype
 │
-└── SpringScopeUsingJavaConfig
-    └── Demonstrates bean scopes like prototype
+├── SpringScopeandValueAnnotation
+│   └── Demonstrates @Scope and @Value annotation usage
 ```
 
 ---
 
-## 📚 Concepts Covered
+# 📚 Concepts Covered
 
-This repository demonstrates the following **Spring Core concepts**:
-
-- Java-Based Configuration
+- Java-Based Configuration  
 - `@Configuration`
 - `@Bean`
 - `@Component`
@@ -59,10 +57,11 @@ This repository demonstrates the following **Spring Core concepts**:
 - `@Qualifier`
 - `@Primary`
 - `@Scope`
+- `@Value`
 
 ---
 
-## ⚙️ Example Java Configuration
+# ⚙️ Example Java Configuration
 
 ```java
 @Configuration
@@ -80,14 +79,14 @@ public class JavaConfig {
 
 ---
 
-## 🎯 Purpose of This Repository
+# 🎯 Purpose of This Repository
 
 This project was created while learning **Spring Core concepts using Java Configuration** to better understand how Spring handles **Dependency Injection and Bean Lifecycle** without XML configuration.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Aryan Sohani**
 
-If you found this helpful, feel free to ⭐ the repository.
+If you found this helpful, feel free to ⭐ star the repository.
