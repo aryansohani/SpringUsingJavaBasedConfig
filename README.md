@@ -80,20 +80,6 @@ public class JavaConfig {
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repository
-
-```
-git clone https://github.com/your-username/SpringUsingJavaBasedConfig.git
-```
-
-2. Open the project in **IntelliJ IDEA**
-
-3. Run the `App.java` file.
-
----
-
 ## 🎯 Purpose of This Repository
 
 This project was created while learning **Spring Core concepts using Java Configuration** to better understand how Spring handles **Dependency Injection and Bean Lifecycle** without XML configuration.
